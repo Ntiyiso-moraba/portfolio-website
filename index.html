@@ -3,44 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio | Home</title>
+    <title>Ntiyiso Moraba | Portfolio Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <header>
-        <nav>
-            <strong>My Portfolio</strong>
-            <a href="index.html">Home</a>
-            <a href="about.html">About me</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+        <div class="header-container">
+            <strong>Ntiyiso Moraba</strong>
+            <nav>
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
     </header>
-    <hr>
+
     <main class="container">
-        <section>
-            <h1>Hi,I'm an IT Support & Software QA Specialist in Training🚀</h1>
-            <p>Welcome to my digital space!I am a dedicated tech proffessional focusing on core IT infrastructure, user support system , &software quality assurance .I enjoy troubleshooting technical problems,building test automation script, & ensuring digital system run smoothly & securely.</p>
-        </section>
-        <section>
-            <h2>Technical Skills & Focus Areas</h2>
-            <ul>
-                <li><strong>IT Support & Operations:</strong>System configuration,operating system (Linux,Windows),user administration,& troubleshooting fundamentals.</li>
-                <li><strong>Software Testing & Automation:</strong>Writing logic-driven test scripts using Java,exploring automation frameworks,& learning manual bug tracking.</li>
-                <li><strong>Developer Tools:</strong>Git,Github,VS Code,& command-line environments.</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Featured Project</h2>
-            <h3>1.Personal portfolio website</h3>
-            <p>A clean,multi-page semantic HTML website built to showcase my technical learning journey,Github repositories,and software testing projects</p>
+        <section class="hero">
+            <h1>Hi, I'm Ntiyiso. I focus on IT Support, QA Testing, and Cybersecurity.</h1>
+            <p>Welcome to my page. I am working on my technical skills to move into software quality assurance, core tech support, and basic security systems. I use this site to keep track of my practice scripts and practical projects.</p>
         </section>
 
+        <section>
+            <h2>My Focus Areas</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3><i class="fas fa-desktop"></i> IT Support</h3>
+                    <p>Setting up operating systems, configuring local machines, working with user accounts, and basic hardware troubleshooting.</p>
+                </div>
+                <div class="skill-card">
+                    <h3><i class="fas fa-bug"></i> QA Testing</h3>
+                    <p>Learning how to find bugs, writing automation scripts using Java, and tracking test results manually.</p>
+                </div>
+                <div class="skill-card">
+                    <h3><i class="fas fa-shield-alt"></i> Cybersecurity</h3>
+                    <p>Studying defensive security, basic threats, and system protection setups through my current coursework.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-project">
+            <h2>Current Project</h2>
+            <h3>My Static Portfolio Website</h3>
+            <p>I built this site using plain HTML and CSS to practice my layout skills, use semantic tags, and host my contact links for code projects.</p>
+            <a href="https://github.com/Ntiyiso-moraba" target="_blank" rel="noopener noreferrer" class="project-link">
+                <i class="fab fa-github"></i> My GitHub Profile
+            </a>
+        </section>
     </main>
-    <hr>
-    <footer>
-        <p>&copy;2026 Built with dedication.ALL rights reserved.</p>
 
-        </footer>
+    <footer>
+        <p>&copy; 2026 Ntiyiso Moraba.</p>
+    </footer>
+
 </body>
-</html>=
+</html>
